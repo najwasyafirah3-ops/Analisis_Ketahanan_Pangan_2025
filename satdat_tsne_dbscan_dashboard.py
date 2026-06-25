@@ -17,7 +17,6 @@ ketahanan pangan 38 provinsi Indonesia menggunakan metode **DBSCAN** dan **t-SNE
 # ╔══════════════════════════════════════════════════════╗
 # ║  CELL 1 – Install Dependencies                       ║
 # ╚══════════════════════════════════════════════════════╝
-!pip install streamlit scikit-learn plotly pyngrok openpyxl -q
 print('✅ Semua library berhasil diinstall!')
 
 # ╔══════════════════════════════════════════════════════╗
