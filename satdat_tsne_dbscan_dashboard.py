@@ -32,11 +32,10 @@ print('   └── app.py   ← File dashboard Streamlit')
 # ╔══════════════════════════════════════════════════════╗
 # ║  CELL 3 – Upload Data Excel                          ║
 # ╚══════════════════════════════════════════════════════╝
-from google.colab import files
 import shutil
 
 print('📤 Silakan pilih dan upload file Data_Satdat.xlsx ...')
-uploaded = files.upload()
+
 
 for filename in uploaded.keys():
     dest = f'satdat_app/data/{filename}'
